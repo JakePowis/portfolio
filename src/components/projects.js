@@ -13,7 +13,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* React - Project 1 */}
-          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '550', minHeight: '420px', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '180px', background: 'url(datavis.jpeg) center / cover' }} ></CardTitle>
             <CardText>
               <div className="cardTitle">dataVis</div>
@@ -36,11 +36,11 @@ class Projects extends Component {
           </Card>
 
           {/* React - Project 2 */}
-          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '550', minHeight: '420px', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '180px', background: 'url(eshop.png) center / cover' }} ></CardTitle>
             <CardText>
               <div className="cardTitle">bookStore</div>
-              An Amazon inspired online book shop with full shoping cart and payment functionality.
+              An Amazon inspired online book shop with full shoping cart, checkout and payment functionality.
               <br></br>
               <br></br>
               Built with  React, Redux, Node.js, Express, MongoDB AWS S3, PayPal SDK & hosted on heroku.
@@ -59,14 +59,14 @@ class Projects extends Component {
           </Card>
 
           {/* React - Project 3 */}
-          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '550', minHeight: '420px', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '180px', background: 'url(logoZM.png) center / cover' }} ></CardTitle>
             <CardText>
               <div className="cardTitle">Blood Dontations</div>
               App built for Israeli blood donation charity Zichron Menachem to help their thousands of donors schedule appointments with israel's largest hospitals.
               <br></br>
               <br></br>
-              Built purely with React and Firebase & hosted on heroku.
+              Built purely with React and Firebase & hosted on heroku. English, Hebrew & Arabic.
             </CardText>
             <CardActions border>
               <a href="https://github.com/JakePowis/bloodDonations" target="_blank">
@@ -84,7 +84,7 @@ class Projects extends Component {
 
 
           {/* React - Project 4 */}
-          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '550', minHeight: '420px', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '180px', background: 'url(stumpymobile.png) center / cover' }} ></CardTitle>
             <CardText>
               <div className="cardTitle">stumpy</div>
@@ -112,19 +112,20 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* JS - Project 1 */}
-          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >spookList</CardTitle>
+          <Card shadow={5} style={{ minWidth: '550', minHeight: '420px', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(sppok1.png) center / cover' }} ></CardTitle>
             <CardText>
+              <div className="cardTitle">spookList</div>
               A fun web app for searching the best horror movies out there!
               <br></br>
               <br></br>
-              Built with Vanilla JS and the oMDB RESTful API & hosted on netlify
+              Built with Vanilla JS and the open Movie Databse REST API & hosted on GitHub pages
           </CardText>
             <CardActions border>
-              <a href="https://github.com/JakePowis/eShop.uk" target="_blank">
+              <a href="https://github.com/JakePowis/SpookList" target="_blank">
                 <Button colored>GitHub</Button>
               </a>
-              <a href="https://webshop-jp.herokuapp.com/" target="_blank">
+              <a href="https://jakepowis.github.io/SpookList/" target="_blank">
                 <Button colored>Live Demo</Button>
               </a>
             </CardActions>
@@ -134,19 +135,20 @@ class Projects extends Component {
           </Card>
 
           {/* JS - Project 2 */}
-          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >cityComplete</CardTitle>
+          <Card shadow={5} style={{ minWidth: '550', minHeight: '420px', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(city1.png) center / cover' }} ></CardTitle>
             <CardText>
-              Auto-complete search box for all cities & towns in Isreal
+              <div className="cardTitle">cityComplete</div>
+              Auto-complete search box for all cities & towns in Isreal.
               <br></br>
               <br></br>
-              Built with Vanilla JS and Node.js & hosted on netlify
+              Built with Vanilla JS and Node.js & hosted on heroku.
           </CardText>
             <CardActions border>
-              <a href="https://github.com/JakePowis/eShop.uk" target="_blank">
+              <a href="https://github.com/JakePowis/cityComplete" target="_blank">
                 <Button colored>GitHub</Button>
               </a>
-              <a href="https://webshop-jp.herokuapp.com/" target="_blank">
+              <a href="https://city-complete.herokuapp.com/" target="_blank">
                 <Button colored>Live Demo</Button>
               </a>
             </CardActions>
@@ -156,21 +158,20 @@ class Projects extends Component {
           </Card>
 
           {/* JS - Project 3 */}
-          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >calculator</CardTitle>
+          <Card shadow={5} style={{ minWidth: '550', minHeight: '420px', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(calc1.png) center / cover' }} ></CardTitle>
             <CardText>
+              <div className="cardTitle">Calculator App</div>
               Simple Calulator web app
               <br></br>
               <br></br>
               Built with Vanilla JS & hosted on codepen
           </CardText>
             <CardActions border>
-              <a href="https://github.com/JakePowis/eShop.uk" target="_blank">
-                <Button colored>GitHub</Button>
+              <a href="https://codepen.io/jakepowis/pen/mdJWLGq" target="_blank">
+                <Button colored>CodePen</Button>
               </a>
-              <a href="https://webshop-jp.herokuapp.com/" target="_blank">
-                <Button colored>Live Demo</Button>
-              </a>
+
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
@@ -183,9 +184,10 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* TS - Project 1 */}
-          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >FinanceLogger - WIP</CardTitle>
+          <Card shadow={5} style={{ minWidth: '550', minHeight: '420px', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(https://res.cloudinary.com/practicaldev/image/fetch/s--psjBBshe--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/bq5nm2vl3thxju1l5y24.png) center / cover' }} >WIP</CardTitle>
             <CardText>
+              <div className="cardTitle">Current Project: FinanceLogger </div>
               A finance app to log incoming & outgoing payments to help manage cashflow.
               <br></br>
               <br></br>
@@ -193,10 +195,10 @@ class Projects extends Component {
         </CardText>
             <CardActions border>
               <a href="https://github.com/JakePowis/eShop.uk" target="_blank">
-                <Button colored>GitHub</Button>
+                <Button disabled colored>GitHub</Button>
               </a>
               <a href="https://webshop-jp.herokuapp.com/" target="_blank">
-                <Button colored>Live Demo</Button>
+                <Button disabled colored>Live Demo</Button>
               </a>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
