@@ -1,38 +1,262 @@
-.App {
+
+
+.header-color {
+  background: #2c3e50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+  
+  
+  
+  
+  
+}
+
+.landing-grid {
+  background: #2c3e50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+
+  
+  
+  
+  
+
+
+  
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.projects-grid {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  /* font-weight: bold; */
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-text h2 {
+  font-weight: bold;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+
+}
+
+.social-links a {
+  opacity: 0.7
+
+}
+
+.social-links a:hover {
+  color: white;
+  opacity: 1.0;
+  transition: 0.3s ease;
+
+}
+
+
+.hover {
+  font-weight:bold !important;;
+}
+
+.active {
+
+  font-weight: 1000 !important;;
+  /* animation: shake 1s;
+  animation-iteration-count: infinite; */
+
+}
+
+
+.hover:hover {
+  color: white;
+  opacity: 0.8;
+  transition: 0.2s ease;
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+
+}
+
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
   }
 }
+
+.mdl-card__supporting-text {
+  min-height: 170px;
+}
+
+.mdl-card__actions {
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.mdl-card__actions > a {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+}
+
+.mdl-card__actions > a > button {
+
+  width: 100%;
+  
+  }
+
+
+  .cardTitle {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 0px 20px 0px;
+    color: #2c3e50
+    
+  }
+
+  .mdl-card:hover {
+
+    transform: scale(1.08);
+
+
+  }
+
+  .mdl-card {
+
+    transition: 0.3s ease-out;
+
+  }

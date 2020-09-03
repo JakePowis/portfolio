@@ -1,0 +1,237 @@
+import React, { Component } from 'react';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+
+class Projects extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { activeTab: 0 };
+  }
+
+  toggleCategories() {
+
+    if (this.state.activeTab === 0) {
+      return (
+        <div className="projects-grid">
+          {/* React - Project 1 */}
+          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(datavis.jpeg) center / cover' }} ></CardTitle>
+            <CardText>
+              <div className="cardTitle">dataVis</div>
+              Web app to enable businesses to create beautiful charts & graphs of their business data in just a few clicks. Fast, free & simple.
+              <br></br>
+              <br></br>
+              Built with  React, Node.js, Express, PSQL, Chart.js & hosted on netlify.
+            </CardText>
+            <CardActions border>
+              <a href="https://github.com/JakePowis/datavis" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
+              <a href="https://datavis-jm.netlify.app/" target="_blank">
+                <Button colored>Live Demo</Button>
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* React - Project 2 */}
+          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(eshop.png) center / cover' }} ></CardTitle>
+            <CardText>
+              <div className="cardTitle">bookStore</div>
+              An Amazon inspired online book shop with full shoping cart and payment functionality.
+              <br></br>
+              <br></br>
+              Built with  React, Redux, Node.js, Express, MongoDB AWS S3, PayPal SDK & hosted on heroku.
+            </CardText>
+            <CardActions border>
+              <a href="https://github.com/JakePowis/eShop.uk" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
+              <a href="https://webshop-jp.herokuapp.com/" target="_blank">
+                <Button colored>Live Demo</Button>
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* React - Project 3 */}
+          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(logoZM.png) center / cover' }} ></CardTitle>
+            <CardText>
+              <div className="cardTitle">Blood Dontations</div>
+              App built for Israeli blood donation charity Zichron Menachem to help their thousands of donors schedule appointments with israel's largest hospitals.
+              <br></br>
+              <br></br>
+              Built purely with React and Firebase & hosted on heroku.
+            </CardText>
+            <CardActions border>
+              <a href="https://github.com/JakePowis/bloodDonations" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
+              <a href="https://webshop-jp.herokuapp.com/" target="_blank">
+                <Button disabled colored>Live Demo</Button>
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+
+
+          {/* React - Project 4 */}
+          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(stumpymobile.png) center / cover' }} ></CardTitle>
+            <CardText>
+              <div className="cardTitle">stumpy</div>
+              Web utility site providing free & simple Image Hosting & Url Shortening services for both mobile & web.
+              <br></br>
+              <br></br>
+              Built with  React, Node.js, Express, MongoDB & hosted on heroku.
+            </CardText>
+            <CardActions border>
+              <a href="https://github.com/JakePowis/stumpy" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
+              <a href="https://st-umpy.herokuapp.com/" target="_blank">
+                <Button colored>Live Demo</Button>
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
+
+      )
+    } else if (this.state.activeTab === 1) {
+      return (
+        <div className="projects-grid">
+          {/* JS - Project 1 */}
+          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >spookList</CardTitle>
+            <CardText>
+              A fun web app for searching the best horror movies out there!
+              <br></br>
+              <br></br>
+              Built with Vanilla JS and the oMDB RESTful API & hosted on netlify
+          </CardText>
+            <CardActions border>
+              <a href="https://github.com/JakePowis/eShop.uk" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
+              <a href="https://webshop-jp.herokuapp.com/" target="_blank">
+                <Button colored>Live Demo</Button>
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* JS - Project 2 */}
+          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >cityComplete</CardTitle>
+            <CardText>
+              Auto-complete search box for all cities & towns in Isreal
+              <br></br>
+              <br></br>
+              Built with Vanilla JS and Node.js & hosted on netlify
+          </CardText>
+            <CardActions border>
+              <a href="https://github.com/JakePowis/eShop.uk" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
+              <a href="https://webshop-jp.herokuapp.com/" target="_blank">
+                <Button colored>Live Demo</Button>
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* JS - Project 3 */}
+          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >calculator</CardTitle>
+            <CardText>
+              Simple Calulator web app
+              <br></br>
+              <br></br>
+              Built with Vanilla JS & hosted on codepen
+          </CardText>
+            <CardActions border>
+              <a href="https://github.com/JakePowis/eShop.uk" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
+              <a href="https://webshop-jp.herokuapp.com/" target="_blank">
+                <Button colored>Live Demo</Button>
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
+      )
+
+    } else if (this.state.activeTab === 2) {
+      return (
+        <div className="projects-grid">
+          {/* TS - Project 1 */}
+          <Card shadow={5} style={{ minWidth: '450', minHeight: '420px', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >FinanceLogger - WIP</CardTitle>
+            <CardText>
+              A finance app to log incoming & outgoing payments to help manage cashflow.
+              <br></br>
+              <br></br>
+              Built with TypeScript, Node,js, Express & hosted on Heroku.
+        </CardText>
+            <CardActions border>
+              <a href="https://github.com/JakePowis/eShop.uk" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
+              <a href="https://webshop-jp.herokuapp.com/" target="_blank">
+                <Button colored>Live Demo</Button>
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+
+        </div>
+      )
+    }
+
+  }
+
+  render() {
+    return (
+      <div>
+        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+          <Tab>React</Tab>
+          <Tab>JavaScript</Tab>
+          <Tab>TypeScript</Tab>
+
+        </Tabs>
+
+
+        <Grid>
+          <Cell col={12}>
+            <div className="content">{this.toggleCategories()}</div>
+          </Cell>
+        </Grid>
+
+
+      </div>
+    )
+  }
+}
+
+export default Projects;
