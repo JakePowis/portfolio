@@ -1,14 +1,13 @@
+a {
 
+text-decoration: none;
+color: inherit !important;
+}
 
 .header-color {
   background: #2c3e50;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  
-  
-  
-  
   
   
 }
@@ -17,14 +16,6 @@
   background: #2c3e50;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  
-
-  
-  
-  
-  
-
 
   
   text-align: center;
@@ -51,6 +42,48 @@
   background: #27221F;
   color: white;
   padding: 2em;
+}
+
+.resumeText {
+
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.resumeText > ul > li {
+  font-weight: bold;
+}
+
+#arrow {
+  border-right:2px solid black;
+  border-bottom:2px solid black;
+  width:10px;
+  height:10px;
+  transform: rotate(-45deg);
+  margin-top:40px;
+}
+
+
+
+ul li {
+position: relative;
+padding-bottom: 10px;
+}
+
+ul {
+list-style: none;
+}
+
+ul li:before{
+ content: '';
+ position: absolute;
+ border-right:2px solid black;
+ border-bottom:2px solid black;
+ width:5px;
+ height:5px;
+ top: calc(50% - 4px);
+ left: -20px;
+ transform: translateY(-50%) rotate(-45deg);
 }
 
 /* contact page css */
@@ -248,8 +281,8 @@ justify-content: center;
 
 
   .cardTitle {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 20px;
+    /* font-weight: bold; */
     padding: 10px 0px 20px 0px;
     color: #2c3e50
     
@@ -266,4 +299,17 @@ justify-content: center;
 
     transition: 0.3s ease-out;
 
+  }
+
+  .minWidth {
+    min-width: 65px;;
+
+  }
+
+  .center {
+
+    display: flex;
+    flex-direction: row;;
+    flex-wrap: wrap;
+    align-items: center;;
   }

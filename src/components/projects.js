@@ -17,7 +17,7 @@ class Projects extends Component {
             <CardTitle style={{ color: '#fff', height: '180px', background: 'url(datavis.jpeg) center / cover' }} ></CardTitle>
             <CardText>
               <div className="cardTitle">dataVis</div>
-              Web app to enable businesses to create beautiful charts & graphs of their business data in just a few clicks. Fast, free & simple.
+              Data visualisation tool for businesses, beautiful customized charts in just a few clicks. Fast, free & simple.
               <br></br>
               <br></br>
               Built with  React, Node.js, Express, PSQL, Chart.js & hosted on netlify.
@@ -119,7 +119,7 @@ class Projects extends Component {
               A fun web app for searching the best horror movies out there!
               <br></br>
               <br></br>
-              Built with Vanilla JS and the open Movie Databse REST API & hosted on GitHub pages
+              Built with Vanilla JS and the open Movie Databse REST API. Hosted on GitHub pages
           </CardText>
             <CardActions border>
               <a href="https://github.com/JakePowis/SpookList" target="_blank">
@@ -165,7 +165,7 @@ class Projects extends Component {
               Simple Calulator web app
               <br></br>
               <br></br>
-              Built with Vanilla JS & hosted on codepen
+              Built with Vanilla JS & hosted on CodePen.
           </CardText>
             <CardActions border>
               <a href="https://codepen.io/jakepowis/pen/mdJWLGq" target="_blank">
@@ -191,7 +191,10 @@ class Projects extends Component {
               A finance app to log incoming & outgoing payments to help manage cashflow.
               <br></br>
               <br></br>
-              Built with TypeScript, Node,js, Express & hosted on Heroku.
+              Built with TypeScript, Node,js, Express.
+              <br />
+              <br />
+              Not yet live.
         </CardText>
             <CardActions border>
               <a href="https://github.com/JakePowis/eShop.uk" target="_blank">

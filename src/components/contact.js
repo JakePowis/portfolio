@@ -25,15 +25,15 @@ class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
-                    <i className="fa fa-phone-square" aria-hidden="true" />
-                    07895 547 932
+                    <div className="center"><i className="fa fa-phone-square minWidth" aria-hidden="true" />
+                    07895 547 932</div>
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
-                    <i className="fa fa-envelope" aria-hidden="true" />
-                    jakepowis@gmail.com
+                    <div className="center"><i className="fa fa-envelope minWidth" aria-hidden="true" />
+                    jakepowis@gmail.com</div>
                   </ListItemContent>
                 </ListItem>
 
@@ -42,15 +42,15 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
-                    <i className="fa fa-map-marker" aria-hidden="true" />
-                    London, UK
+                    <div className="center"> <i className="fa fa-map-marker minWidth" aria-hidden="true" />
+                    London, UK</div>
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
-                    <i className="fa fa-github-square" aria-hidden="true" />
-                    <a href="https://github.com/jakepowis" rel="noopener noreferrer" target="_blank" >github.com/jakepowis</a>
+                    <div className="center"><i className="fa fa-github-square minWidth" aria-hidden="true" />
+                      <a href="https://github.com/jakepowis" rel="noopener noreferrer" target="_blank" >github.com/jakepowis</a></div>
                   </ListItemContent>
                 </ListItem>
 
