@@ -72,8 +72,8 @@ class Projects extends Component {
               <a href="https://github.com/JakePowis/bloodDonations" target="_blank">
                 <Button colored>GitHub</Button>
               </a>
-              <a href="https://webshop-jp.herokuapp.com/" target="_blank">
-                <Button disabled colored>Live Demo</Button>
+              <a href="https://blood-donations.netlify.app" target="_blank">
+                <Button colored>Live Demo</Button>
               </a>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -139,7 +139,7 @@ class Projects extends Component {
             <CardTitle style={{ color: '#fff', height: '180px', background: 'url(city1.png) center / cover' }} ></CardTitle>
             <CardText>
               <div className="cardTitle">cityComplete</div>
-              Auto-complete search box for all cities & towns in Isreal.
+              Auto-complete search box for all cities & towns in Israel.
               <br></br>
               <br></br>
               Built with Vanilla JS and Node.js & hosted on heroku.
