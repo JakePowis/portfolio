@@ -20,13 +20,13 @@ class Projects extends Component {
               Data visualisation tool for businesses, beautiful customized charts in just a few clicks. Fast, free & simple.
               <br></br>
               <br></br>
-              Built with  React, Node.js, Express, PSQL, Chart.js & hosted on netlify.
+              Built with  React, Node.js, Express, PSQL, Chart.js. Frontend hosted on netlify with API hosted on heroku.
             </CardText>
             <CardActions border>
               <a href="https://github.com/JakePowis/datavis" target="_blank">
                 <Button colored>GitHub</Button>
               </a>
-              <a href="https://datavis-jm.netlify.app/" target="_blank">
+              <a href="https://datavis-jp.netlify.app/" target="_blank">
                 <Button colored>Live Demo</Button>
               </a>
             </CardActions>
@@ -66,7 +66,7 @@ class Projects extends Component {
               App built for Israeli blood donation charity Zichron Menachem to help their thousands of donors schedule appointments with israel's largest hospitals.
               <br></br>
               <br></br>
-              Built purely with React and Firebase & hosted on heroku. English, Hebrew & Arabic.
+              Built purely with React and Firebase & hosted on netlify. English, Hebrew & Arabic.
             </CardText>
             <CardActions border>
               <a href="https://github.com/JakePowis/bloodDonations" target="_blank">
