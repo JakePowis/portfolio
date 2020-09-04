@@ -115,7 +115,7 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '550', minHeight: '420px', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '180px', background: 'url(sppok1.png) center / cover' }} ></CardTitle>
             <CardText>
-              <div className="cardTitle">spookList</div>
+              <div className="cardTitle">The Spook List</div>
               A fun web app for searching the best horror movies out there!
               <br></br>
               <br></br>
