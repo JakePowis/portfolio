@@ -194,14 +194,14 @@ class Projects extends Component {
               Built with TypeScript.
               <br />
               <br />
-              Not yet live.
+              Deployed with Webpack.
         </CardText>
             <CardActions border>
               <a href="https://github.com/JakePowis/financeLogger" target="_blank">
                 <Button colored>GitHub</Button>
               </a>
-              <a href="https://webshop-jp.herokuapp.com/" target="_blank">
-                <Button disabled colored>Live Demo</Button>
+              <a href="https://financelogger.netlify.app/" target="_blank">
+                <Button colored>Live Demo</Button>
               </a>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
