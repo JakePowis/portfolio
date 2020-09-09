@@ -185,20 +185,20 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* TS - Project 1 */}
           <Card shadow={5} style={{ minWidth: '550', minHeight: '420px', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(https://res.cloudinary.com/practicaldev/image/fetch/s--psjBBshe--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/bq5nm2vl3thxju1l5y24.png) center / cover' }} >WIP</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '180px', background: 'url(logger.png) center / cover' }} ></CardTitle>
             <CardText>
-              <div className="cardTitle">Current Project: FinanceLogger </div>
+              <div className="cardTitle">Finance Logger </div>
               A finance app to log incoming & outgoing payments to help manage cashflow.
               <br></br>
               <br></br>
-              Built with TypeScript, Node,js, Express.
+              Built with TypeScript.
               <br />
               <br />
               Not yet live.
         </CardText>
             <CardActions border>
-              <a href="https://github.com/JakePowis/eShop.uk" target="_blank">
-                <Button disabled colored>GitHub</Button>
+              <a href="https://github.com/JakePowis/financeLogger" target="_blank">
+                <Button colored>GitHub</Button>
               </a>
               <a href="https://webshop-jp.herokuapp.com/" target="_blank">
                 <Button disabled colored>Live Demo</Button>
