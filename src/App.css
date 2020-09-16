@@ -4,6 +4,8 @@ text-decoration: none;
 color: inherit !important;
 }
 
+
+
 .header-color {
   background: #2c3e50;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
@@ -25,7 +27,21 @@ color: inherit !important;
   width: 100%;
   height: 100%;
   overflow: auto;
+
 }
+
+
+.landingContainer {
+  display:flex;
+  align-items: center;
+  width: 100%;
+}
+
+.landingContent {
+  width: 100%;
+  margin-bottom: 6em;
+}
+
 
 .projects-grid {
   display: flex;
@@ -119,6 +135,7 @@ ul li:before{
 
 .contact-grid h2 {
   font-family: 'Anton', sans-serif;
+  font-size: 34px;
 }
 
 .contact-grid p {
@@ -133,35 +150,39 @@ ul li:before{
 }
 
 .contact-list i {
-  font-size: 66px;
+  font-size: 44px;
   padding-right: 5rem;
 }
+
 
 
 /* contact page css */
 
 .avatar-img {
-  height: 250px;
-  padding-top: 5em;
+  height: 200px;
+
 }
 
 .banner-text {
   background-color: black;
   opacity: .8;
-  width: 75%;
+  width: 70%;
   margin: auto;
   border-radius: 10px;
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 48px;
   /* font-weight: bold; */
   color: white;
+  margin: 10px;
 }
 
 .banner-text h2 {
   font-weight: bold;
   color: white;
+  font-size: 34px;
+  margin: 10px;
 }
 
 .banner-text hr {
@@ -174,6 +195,7 @@ ul li:before{
   color: white;
   font-size: 20px;
   padding: 1em;
+  margin: 5px;
 }
 
 .social-links {
@@ -185,7 +207,7 @@ ul li:before{
 
 .social-links i {
   color: white;
-  font-size: 5em;
+  font-size: 4em;
   padding: 8px;
 
 }

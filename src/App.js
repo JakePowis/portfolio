@@ -16,7 +16,7 @@ class App extends Component {
               <NavLink to="/contact" className="hover">Contact</NavLink>
             </Navigation>
           </Header>
-          <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/" >MyPortfolio</Link>}>
+          <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/" >Portfolio</Link>}>
             <Navigation>
               <Link to="/">Home</Link>
               <Link to="/resume">Resume</Link>

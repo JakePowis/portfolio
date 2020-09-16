@@ -19,7 +19,7 @@ class Resume extends Component {
               />
             </div> */}
 
-            <h2 style={{ paddingTop: '0em' }}>Jake Powis</h2>
+            <h2 style={{ paddingTop: '0em', fontSize: "40px" }}>Jake Powis</h2>
             <h4 style={{ color: 'grey' }}>Full Stack Developer</h4>
             <hr style={{ borderTop: '3px solid #3498db', width: '50%' }} />
             <p className="resumeText">Enthusiastic and highly ambitious web developer seeking first formal role in Web Dev, experienced with technologies such as:<ul>
@@ -51,7 +51,7 @@ class Resume extends Component {
             <hr style={{ borderTop: '3px solid #3498db', width: '50%' }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2>Education</h2>
+            <h2 style={{ fontSize: "34px", marginTop: "0px" }}>Education</h2>
 
 
             <Education
@@ -104,7 +104,7 @@ class Resume extends Component {
 
             <hr style={{ borderTop: '3px solid orange' }} />
 
-            <h2>Experience</h2>
+            <h2 style={{ fontSize: "34px" }}>Experience</h2>
 
 
 
@@ -154,7 +154,7 @@ class Resume extends Component {
               Lloyd’s Global Credit Card business, working on Finance related projects."
             />
             <hr style={{ borderTop: '3px solid orange' }} />
-            <h2>Other Skills</h2>
+            <h2 style={{ fontSize: "34px" }}>Other Skills</h2>
             <Skills
               skill="Project & Client Management"
               progress={90}
