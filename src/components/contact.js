@@ -1,15 +1,28 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect, useRef } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-import avatar from '../images/jp2.png'
+import avatar from '../images/jp2.png';
+import gsap from 'gsap';
 
-class Contact extends Component {
-  render() {
+const Contact = () => {
+
+const avatarRef = useRef();
+
+  useEffect(() => {
+    const tl3 = gsap.timeline({ defaults: { ease: "power1.in" } });
+  
+    tl3.fromTo(avatarRef.current,  { opacity: 0 }, { opacity: 1, duration: 1.5 });
+  
+  }, [])
+   
+
+
     return (
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Jake Powis</h2>
             <img
+              ref={avatarRef}
               src={avatar}
               alt="avatar"
               style={{ height: '250px' }}
@@ -61,7 +74,6 @@ class Contact extends Component {
         </Grid>
       </div>
     )
-  }
-}
+    }
 
 export default Contact;

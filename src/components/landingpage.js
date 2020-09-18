@@ -12,17 +12,9 @@ const image = useRef();
 const text = document.querySelectorAll(".text")
 
 useEffect(() => {
-  const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
+  const tl2 = gsap.timeline({ defaults: { ease: "power1.in" } });
 
-  tl.to(".text", { y: "0%", duration: 1, stagger: 0.25 });
-  // tl.to(".text", { y: "0%", duration: 1, stagger: 0.25 });
-  // tl.to(".slider", { y: "-100%", duration: 1.5, delay: 0.5 });
-  // tl.fromTo(bannerText.current, {y: "-150%"}, { y: "0%", duration: 1 });
-
-  // tl.fromTo(image.current, { opacity: 0 }, { opacity: 1, duration: 2}, "-=1");
-  tl.fromTo(".social-links", { opacity: 0 }, { opacity: 1, duration: 2, stagger: 0.25, ease: "power1.in"}, "-=0.8");
- 
-  // // tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
+  tl2.to(".text2", { y: "0%", duration: 1, stagger: 0.2}, "-=0.8");
 
  
 }, [])
@@ -44,10 +36,10 @@ useEffect(() => {
 
 
             <h1 class="hide">
-          <span class="text">Jake Powis</span>
+          <span class="text2">Jake Powis</span>
         </h1>
         <h2 class="hide">
-          <span class="text">Full Stack Developer</span>
+          <span class="text2">Full Stack Developer</span>
         </h2>
         <div class="hide">
           {/* <span class="text width"> */}
@@ -55,7 +47,7 @@ useEffect(() => {
           {/* </span> */}
         </div>
         <h4 class="hide">
-          <span class="text">HTML/CSS | JavaScript | React | NodeJS | Express | SQL | MongoDB | Firebase</span>
+          <span class="text2">HTML/CSS | JavaScript | React | NodeJS | Express | SQL | MongoDB | Firebase</span>
         </h4>
 
 
