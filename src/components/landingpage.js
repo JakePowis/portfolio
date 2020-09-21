@@ -12,9 +12,9 @@ const image = useRef();
 const text = document.querySelectorAll(".text")
 
 useEffect(() => {
-  const tl2 = gsap.timeline({ defaults: { ease: "power1.in" } });
+  const tl2 = gsap.timeline({ defaults: { ease: "power1.out" } });
 
-  tl2.to(".text2", { y: "0%", duration: 1, stagger: 0.2}, "-=0.8");
+  tl2.to(".text2", { y: "0%", duration: 1.25, stagger: 0.25}, "-=0.5");
 
  
 }, [])
